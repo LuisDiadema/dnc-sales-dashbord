@@ -1,24 +1,23 @@
-import type { Theme } from '@types'
+import { type Theme } from '@/types'
 
 export const lightTheme: Theme = {
   appBackground: '#FFF',
   appColor: '#000',
   appDefaultStroke: '#E0E0E0',
   appLogo: 'dnc-logo-black.svg',
-  appSkeletonFrom: '#EEE',
-  appSkeltonTo: '#CCC',
-
+  appSkeletonFrom: '#eee',
+  appSkeletonTo: '#ccc',
   buttons: {
     alert: '#E80000',
     alertColor: '#FFF',
     alertHover: '#D80000',
-    disabled: '#CCC',
-    disabledColor: '#666',
+    disabled: '#CCCCCC',
+    disabledColor: '#666666',
     primary: '#0C70F2',
     primaryColor: '#FFF',
     primaryHover: '#0061DE',
   },
-  cards: {
+  card: {
     alert: '#E80000',
     background: '#FFF',
     border: '#E0E0E0',
@@ -36,7 +35,7 @@ export const lightTheme: Theme = {
   },
   typographies: {
     error: '#FF0202',
-    subtitle: '#666',
+    subtitle: '#828282',
     success: '#008000',
   },
 }
@@ -46,8 +45,8 @@ export const darkTheme: Theme = {
   appColor: '#FFF',
   appDefaultStroke: '#21497D',
   appLogo: 'dnc-logo-white.svg',
-  appSkeletonFrom: '#060b26',
-  appSkeltonTo: '#21497d',
+  appSkeletonFrom: '#060B26',
+  appSkeletonTo: '#21497D',
   buttons: {
     alert: '#E80000',
     alertColor: '#FFF',
@@ -58,7 +57,7 @@ export const darkTheme: Theme = {
     primaryColor: '#FFF',
     primaryHover: '#0061DE',
   },
-  cards: {
+  card: {
     alert: '#E80000',
     background: '#0F1535',
     border: '#21497D',

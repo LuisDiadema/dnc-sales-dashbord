@@ -4,7 +4,7 @@ export interface Theme {
   appDefaultStroke: string
   appLogo: string
   appSkeletonFrom: string
-  appSkeltonTo: string
+  appSkeletonTo: string
   buttons: {
     alert: string
     alertColor: string
@@ -15,7 +15,7 @@ export interface Theme {
     primaryColor: string
     primaryHover: string
   }
-  cards: {
+  card: {
     alert: string
     background: string
     border: string
