@@ -1,2 +1,0 @@
-Precisa trabalhar nisso
-cu
